@@ -10,7 +10,7 @@
 .text--paragraph {
   color: #9fabb2;
   line-height: 30px;
-  padding: 16px 0;
+  padding: 16px 12px;
 }
 
 .btn {
@@ -22,9 +22,9 @@
   -o-border-radius: 30px;
   box-shadow: 0 5px 10px #ccc;
   color: #fff;
-  margin: 30px auto;
-  height: 50px;
-  width: 300px;
+  margin: 12px auto;
+  height: 60px;
+  width: 320px;
 }
 
 .btn--ios {
@@ -36,13 +36,19 @@
 }
 
 .header__app {
+  max-width: 375px;
   margin: 0 auto;
-  padding: 50px 0;
   text-align: center;
 }
-.header__app .header__app-img {
+.header__app .header__app-background {
+  background-image: url(../../public/images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 20px 0;
+}
+.header__app .header__app-background .header__app-img {
   width: 90px;
-  margin-bottom: 30px;
+  margin: 60px 0 40px 0;
 }
 .header__app .header__app-title {
   font-size: 36px;
