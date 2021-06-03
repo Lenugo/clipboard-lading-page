@@ -1,7 +1,7 @@
 @use "./generalStyles" as gs;
 
 .text--paragraph {
-  color: gs.$color-grayish-blue;
+  color: gs.$color-gray-light;
   line-height: 30px;
   padding: 16px 12px;
 }

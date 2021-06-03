@@ -1,0 +1,28 @@
+@use "./footerIcons";
+@use "./generalStyles" as gs;
+
+.footer {
+  max-width: 375px;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  background-color: gs.$color-grayish-blue;
+
+  .footer__img {
+    width: 18%;
+    padding: 1.2rem 0;
+  }
+
+}
+.footer__ul {
+  list-style: none;
+  
+  .footer__list {
+    padding: .5rem 0;
+    
+    .footer__link {
+      text-decoration: none;
+      color: gs.$color-black;
+    }
+  }
+  
+}

@@ -30,7 +30,7 @@
 }
 
 .text--paragraph {
-  color: #9fabb2;
+  color: #ccc;
   line-height: 30px;
   padding: 16px 12px;
 }
@@ -141,6 +141,36 @@
 }
 .section__clipboard .text--paragraph {
   margin-bottom: 24px;
+}
+
+.footer__container-icons {
+  padding: 2rem 0;
+}
+.footer__container-icons .footer__icons {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.footer {
+  max-width: 375px;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  background-color: #9fabb2;
+}
+.footer .footer__img {
+  width: 18%;
+  padding: 1.2rem 0;
+}
+
+.footer__ul {
+  list-style: none;
+}
+.footer__ul .footer__list {
+  padding: 0.5rem 0;
+}
+.footer__ul .footer__list .footer__link {
+  text-decoration: none;
+  color: #000;
 }
 
 /*# sourceMappingURL=index.css.map */
