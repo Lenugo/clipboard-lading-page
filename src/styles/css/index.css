@@ -87,4 +87,16 @@
   font-size: 1.15em;
 }
 
+.section__clipboard {
+  max-width: 375px;
+  margin: 7.5rem auto 0 auto;
+  text-align: center;
+}
+.section__clipboard .section__clipboard-title {
+  font-size: 1.7em;
+}
+.section__clipboard .text--paragraph {
+  margin-bottom: 24px;
+}
+
 /*# sourceMappingURL=index.css.map */

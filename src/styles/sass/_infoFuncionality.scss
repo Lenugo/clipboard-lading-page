@@ -1,5 +1,3 @@
-@use "./generalStyles" as gs;
-
 .info__functionality {
   max-width: 375px;
   margin: 4.5rem auto 0 auto;
@@ -15,10 +13,9 @@
     margin-bottom: 24px;
     width: 100%;
     margin: 0 auto;
-    
+
     .info__functionality-title {
       font-size: 1.15em;
     }
   }
-
 }
