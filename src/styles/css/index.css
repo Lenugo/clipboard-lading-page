@@ -87,18 +87,6 @@
   font-size: 1.15em;
 }
 
-.section__clipboard {
-  max-width: 375px;
-  margin: 7.5rem auto 0 auto;
-  text-align: center;
-}
-.section__clipboard .section__clipboard-title {
-  font-size: 1.7em;
-}
-.section__clipboard .text--paragraph {
-  margin-bottom: 24px;
-}
-
 .show__device {
   max-width: 375px;
   margin: 8rem auto 0 auto;
@@ -115,9 +103,24 @@
   margin-bottom: 4rem;
 }
 
+.info__characteristic {
+  max-width: 375px;
+  margin: 1.2rem auto 0 auto;
+  text-align: center;
+}
+.info__characteristic .info__characteristic-article {
+  margin-bottom: 1.9rem;
+}
+.info__characteristic .info__characteristic-article .info__characteristic-icon {
+  margin-bottom: 1.9rem;
+}
+.info__characteristic .info__characteristic-article .info__characteristic-title {
+  font-size: 20px;
+}
+
 .logos__companies {
   max-width: 375px;
-  margin: 8rem auto 0 auto;
+  margin: 7rem auto 0 auto;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -126,6 +129,18 @@
   width: 65%;
   padding: 50px;
   margin: 0 auto;
+}
+
+.section__clipboard {
+  max-width: 375px;
+  margin: 7.5rem auto 0 auto;
+  text-align: center;
+}
+.section__clipboard .section__clipboard-title {
+  font-size: 1.7em;
+}
+.section__clipboard .text--paragraph {
+  margin-bottom: 24px;
 }
 
 /*# sourceMappingURL=index.css.map */
