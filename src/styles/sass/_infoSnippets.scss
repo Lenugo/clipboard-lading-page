@@ -1,14 +1,14 @@
 @use "./generalStyles" as gs;
 
 .info__snippets {
-  max-width: 375;
-  margin: 10rem auto 0 auto;
-  text-align: center;
+	max-width: 375px;
+	margin: 10rem auto 0 auto;
+	text-align: center;
 
-  .info__snippets-title {
-    font-size: 28px;
-    color: gs.$color-dark-grayish-blue;
-    width: 80%;
-    margin: 0 auto;
-  }
+	.info__snippets-title {
+		font-size: 28px;
+		color: gs.$color-dark-grayish-blue;
+		width: 80%;
+		margin: 0 auto;
+	}
 }

@@ -2,27 +2,26 @@
 @use "./generalStyles" as gs;
 
 .footer {
-  max-width: 375px;
-  margin: 2rem auto 0 auto;
-  text-align: center;
-  background-color: gs.$color-grayish-blue;
+	max-width: 375px;
+	margin: 2rem auto 0 auto;
+	text-align: center;
+	background-color: gs.$color-footer;
 
-  .footer__img {
-    width: 18%;
-    padding: 1.2rem 0;
-  }
-
+	.footer__img {
+		width: 18%;
+		padding: 1.2rem 0;
+		margin-top: 2rem;
+	}
 }
 .footer__ul {
-  list-style: none;
-  
-  .footer__list {
-    padding: .5rem 0;
-    
-    .footer__link {
-      text-decoration: none;
-      color: gs.$color-black;
-    }
-  }
-  
+	list-style: none;
+
+	.footer__list {
+		padding: 0.5rem 0;
+
+		.footer__link {
+			text-decoration: none;
+			color: gs.$color-black;
+		}
+	}
 }
