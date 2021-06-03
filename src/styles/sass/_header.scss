@@ -1,0 +1,25 @@
+@use "./generalStyles" as gs;
+
+.header__app {
+  max-width: 375px;
+  margin: 0 auto;
+  text-align: center;
+
+  .header__app-background {
+    background-image: url(../../../public/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 20px 0;
+    
+    .header__app-img {
+      width: 90px;
+      margin: 60px 0 40px 0;
+    }
+  }
+
+  .header__app-title {
+    font-size: 36px;
+    color: gs.$color-dark-grayish-blue;
+    font-weight: 800;
+  }
+}
