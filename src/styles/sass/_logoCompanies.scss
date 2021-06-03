@@ -1,0 +1,13 @@
+.logos__companies {
+  max-width: 375px;
+  margin: 8rem auto 0 auto;
+  text-align: center;  
+  display: flex;
+  flex-direction: column;
+
+  .logos__companies-icon {
+    width: 65%;
+    padding: 50px;
+    margin: 0 auto;
+  }
+}
