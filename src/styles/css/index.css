@@ -99,4 +99,20 @@
   margin-bottom: 24px;
 }
 
+.show__device {
+  max-width: 375px;
+  margin: 8rem auto 0 auto;
+  text-align: center;
+}
+.show__device .show__device-article {
+  margin-bottom: 3rem;
+}
+.show__device .show__device-article .show__device-title {
+  font-size: 1.7em;
+}
+.show__device .show__device-img {
+  width: 90%;
+  margin-bottom: 4rem;
+}
+
 /*# sourceMappingURL=index.css.map */
