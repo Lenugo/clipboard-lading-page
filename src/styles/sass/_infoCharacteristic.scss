@@ -1,19 +1,20 @@
+@use "./generalStyles" as gs;
 $margin-bottom: 1.9rem;
 
 .info__characteristic {
-  max-width: 375px;
-  margin: 1.2rem auto 0 auto;
-  text-align: center;
-  
-  .info__characteristic-article {
-    margin-bottom: $margin-bottom;
+	min-width: gs.$min-width;
+	margin: 1.2rem auto 0 auto;
+	text-align: center;
 
-    .info__characteristic-icon {
-      margin-bottom: $margin-bottom;
-    }
+	.info__characteristic-article {
+		margin-bottom: $margin-bottom;
 
-    .info__characteristic-title {
-      font-size: 20px;
-    }
-  }
+		.info__characteristic-icon {
+			margin-bottom: $margin-bottom;
+		}
+
+		.info__characteristic-title {
+			font-size: 20px;
+		}
+	}
 }

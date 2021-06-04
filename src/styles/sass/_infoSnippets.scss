@@ -1,7 +1,7 @@
 @use "./generalStyles" as gs;
 
 .info__snippets {
-	max-width: 375px;
+	min-width: gs.$min-width;
 	margin: 10rem auto 0 auto;
 	text-align: center;
 

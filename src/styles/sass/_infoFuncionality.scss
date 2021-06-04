@@ -1,21 +1,23 @@
+@use "./generalStyles" as gs;
+
 .info__functionality {
-  max-width: 375px;
-  margin: 4.5rem auto 0 auto;
-  text-align: center;
+	min-width: gs.$min-width;
+	margin: 4.5rem auto 0 auto;
+	text-align: center;
 
-  .info__functionality-img {
-    width: 90%;
-    object-fit: cover;
-    margin-bottom: 3rem;
-  }
+	.info__functionality-img {
+		width: 90%;
+		object-fit: cover;
+		margin-bottom: 3rem;
+	}
 
-  .info__functionality-article {
-    margin-bottom: 24px;
-    width: 100%;
-    margin: 0 auto;
+	.info__functionality-article {
+		margin-bottom: 24px;
+		width: 100%;
+		margin: 0 auto;
 
-    .info__functionality-title {
-      font-size: 1.15em;
-    }
-  }
+		.info__functionality-title {
+			font-size: 1.15em;
+		}
+	}
 }

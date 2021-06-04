@@ -1,5 +1,7 @@
+@use "./generalStyles" as gs;
+
 .section__clipboard {
-	max-width: 375px;
+	min-width: gs.$min-width;
 	margin: 8rem auto;
 	text-align: center;
 
