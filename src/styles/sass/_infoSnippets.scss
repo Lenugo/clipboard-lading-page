@@ -12,3 +12,9 @@
 		margin: 0 auto;
 	}
 }
+
+@media screen and (min-width: 650px) {
+	.text--paragraph {
+		max-width: 740px;
+	}
+}
