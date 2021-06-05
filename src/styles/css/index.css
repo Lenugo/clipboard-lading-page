@@ -98,6 +98,32 @@
   font-size: 1.15em;
 }
 
+@media screen and (min-width: 800px) {
+  .info__functionality {
+    display: flex;
+    text-align: start;
+  }
+  .info__functionality .info__functionality-content-img {
+    width: 60% !important;
+    float: left;
+  }
+  .info__functionality .info__functionality-content-articles {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  .info__functionality .info__functionality-content-articles .info__functionality-article {
+    margin: 2.2rem auto;
+  }
+  .info__functionality .info__functionality-content-articles .info__functionality-article .info__functionality-title {
+    padding: 0 14px;
+  }
+  .info__functionality .info__functionality-content-articles .info__functionality-article .text--paragraph {
+    max-width: 65%;
+    margin-left: 0;
+  }
+}
 .show__device {
   min-width: 375px;
   margin: 8rem auto 0 auto;

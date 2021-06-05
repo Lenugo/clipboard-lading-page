@@ -21,3 +21,35 @@
 		}
 	}
 }
+
+@media screen and (min-width: 800px) {
+	.info__functionality {
+		display: flex;
+		text-align: start;
+
+		.info__functionality-content-img {
+			width: 60% !important;
+			float: left;
+		}
+
+		.info__functionality-content-articles {
+			float: right;
+			display: flex;
+			flex-direction: column;
+			width: 40%;
+
+			.info__functionality-article {
+				margin: 2.2rem auto;
+
+				.info__functionality-title {
+					padding: 0 14px;
+				}
+
+				.text--paragraph {
+					max-width: 65%;
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}
