@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-size: 18px;
   font-family: "Bai Jamjuree", sans-serif;
+  color: #4c545d;
 }
 
 .btn {
@@ -109,8 +110,6 @@
   }
   .info__functionality .info__functionality-content-articles {
     float: right;
-    display: flex;
-    flex-direction: column;
     width: 40%;
   }
   .info__functionality .info__functionality-content-articles .info__functionality-article {
@@ -126,7 +125,7 @@
 }
 .show__device {
   min-width: 375px;
-  margin: 8rem auto 0 auto;
+  margin: 7rem auto 0 auto;
   text-align: center;
 }
 .show__device .show__device-article {
@@ -140,6 +139,18 @@
   margin-bottom: 4rem;
 }
 
+@media screen and (min-width: 600px) {
+  .show__device {
+    margin-top: 5rem;
+  }
+  .show__device .show__device-article {
+    margin-bottom: 2rem;
+  }
+  .show__device .show__device-img {
+    max-width: 55%;
+    margin-bottom: 2rem;
+  }
+}
 .info__characteristic {
   min-width: 375px;
   margin: 1.2rem auto 0 auto;

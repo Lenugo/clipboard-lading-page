@@ -2,7 +2,7 @@
 
 .show__device {
 	min-width: gs.$min-width;
-	margin: 8rem auto 0 auto;
+	margin: 7rem auto 0 auto;
 	text-align: center;
 
 	.show__device-article {
@@ -16,5 +16,20 @@
 	.show__device-img {
 		width: 90%;
 		margin-bottom: 4rem;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.show__device {
+		margin-top: 5rem;
+
+		.show__device-article {
+			margin-bottom: 2rem;
+		}
+
+		.show__device-img {
+			max-width: 55%;
+			margin-bottom: 2rem;
+		}
 	}
 }
