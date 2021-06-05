@@ -18,3 +18,15 @@ $margin-bottom: 1.9rem;
 		}
 	}
 }
+
+@media screen and (min-width: 600px) {
+	.info__characteristic {
+		display: flex;
+		align-items: baseline;
+
+		.info__characteristic-article {
+			max-width: 420px;
+			margin: 0 auto;
+		}
+	}
+}

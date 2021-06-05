@@ -166,6 +166,16 @@
   font-size: 20px;
 }
 
+@media screen and (min-width: 600px) {
+  .info__characteristic {
+    display: flex;
+    align-items: baseline;
+  }
+  .info__characteristic .info__characteristic-article {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+}
 .logos__companies {
   min-width: 375px;
   margin: 7rem auto 0 auto;
