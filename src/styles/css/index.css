@@ -189,6 +189,15 @@
   margin: 0 auto;
 }
 
+@media screen and (min-width: 600px) {
+  .logos__companies {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .logos__companies .logos__companies-icon {
+    max-width: 200px;
+  }
+}
 .section__clipboard {
   min-width: 375px;
   margin: 8rem auto;
