@@ -4,11 +4,9 @@
 @use "./header";
 @use "./infoSnippets";
 @use "./infoFuncionality";
-@use  "./showDevice";
+@use "./showDevice";
 @use "./infoCharacteristic";
 @use "./logoCompanies";
 @use "./clipboard";
-@use "./footer"
-
-// .attribution { font-size: 11px; text-align: center; }
-// .attribution a { color: hsl(228, 45%, 44%); }
+@use "./footer";
+@use "./attribution";

@@ -1,0 +1,11 @@
+@use "./generalStyles" as gs;
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+
+	.attribution-link {
+		color: gs.$color-attribution;
+		text-decoration: none;
+	}
+}

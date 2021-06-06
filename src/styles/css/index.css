@@ -311,5 +311,13 @@
     width: 118px;
   }
 }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution .attribution-link {
+  color: #3e52a3;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=index.css.map */
