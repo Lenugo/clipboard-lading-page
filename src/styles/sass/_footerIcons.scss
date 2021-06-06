@@ -1,6 +1,10 @@
 .footer__container-icons {
 	padding: 2.2rem 0;
 
+	.footer__container-links {
+		text-decoration: none;
+	}
+
 	.footer__icons {
 		text-align: center;
 		padding: 0 20px;
@@ -11,12 +15,13 @@
 	}
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
 	.footer__container-icons {
 		height: min-content;
 		display: flex;
 		flex-direction: row;
 		padding: 3.5em 0;
+		align-items: center;
 
 		.footer__icons {
 			display: flex;
