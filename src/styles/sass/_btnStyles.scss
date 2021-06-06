@@ -17,6 +17,8 @@
 	-moz-transition: background-color 1s ease;
 	-ms-transition: background-color 1s ease;
 	-o-transition: background-color 1s ease;
+
+	@include gs.mmax-width;
 }
 
 .btn:hover {

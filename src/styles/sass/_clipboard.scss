@@ -5,6 +5,8 @@
 	margin: 8rem auto;
 	text-align: center;
 
+	@include gs.mmax-width;
+
 	.section__clipboard-title {
 		font-size: 1.7em;
 	}

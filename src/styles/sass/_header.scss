@@ -5,6 +5,8 @@
 	margin: 0 auto;
 	text-align: center;
 
+	@include gs.mmax-width;
+
 	.header__app-background {
 		background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)),
 			url(../../../public/images/bg-header-desktop.png);

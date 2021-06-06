@@ -5,6 +5,8 @@
 	margin: 10rem auto 0 auto;
 	text-align: center;
 
+	@include gs.mmax-width;
+
 	.info__snippets-title {
 		font-size: 28px;
 		color: gs.$color-dark-grayish-blue;

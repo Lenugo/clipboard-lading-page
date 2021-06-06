@@ -7,6 +7,8 @@
 	display: flex;
 	flex-direction: column;
 
+	@include gs.mmax-width;
+
 	.logos__companies-icon {
 		width: 65%;
 		height: min-content;

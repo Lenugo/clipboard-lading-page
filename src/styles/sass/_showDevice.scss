@@ -5,6 +5,8 @@
 	margin: 7rem auto 0 auto;
 	text-align: center;
 
+	@include gs.mmax-width;
+
 	.show__device-article {
 		margin-bottom: 3rem;
 

@@ -5,6 +5,8 @@
 	margin: 4.5rem auto 0 auto;
 	text-align: center;
 
+	@include gs.mmax-width;
+
 	.info__functionality-img {
 		width: 90%;
 		object-fit: cover;

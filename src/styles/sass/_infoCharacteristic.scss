@@ -6,6 +6,8 @@ $margin-bottom: 1.9rem;
 	margin: 1.2rem auto 0 auto;
 	text-align: center;
 
+	@include gs.mmax-width;
+
 	.info__characteristic-article {
 		margin-bottom: $margin-bottom;
 
