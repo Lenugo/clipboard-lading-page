@@ -42,3 +42,11 @@
 	color: gs.$color-light-blue;
 	font-size: 1.2rem;
 }
+
+@media screen and (min-width: 600px) {
+	.btn {
+		width: 240px;
+		height: 50px;
+		margin: 0 5px;
+	}
+}
