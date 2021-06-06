@@ -63,9 +63,7 @@
   text-align: center;
 }
 .header__app .header__app-background {
-  background-image: url(../../../public/images/bg-header-mobile.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white), url(../../../public/images/bg-header-desktop.png);
   padding: 50px 0 20px 0;
 }
 .header__app .header__app-background .header__app-img {
@@ -206,6 +204,7 @@
 }
 .logos__companies .logos__companies-icon {
   width: 65%;
+  height: min-content;
   padding: 50px;
   margin: 0 auto;
 }
@@ -274,7 +273,7 @@
   list-style: none;
 }
 .footer .footer__ul .footer__list {
-  padding: 0.5rem 0;
+  padding: 0.5rem;
 }
 .footer .footer__ul .footer__list .footer__link {
   text-decoration: none;

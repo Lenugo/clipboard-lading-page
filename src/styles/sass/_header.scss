@@ -6,9 +6,8 @@
 	text-align: center;
 
 	.header__app-background {
-		background-image: url(../../../public/images/bg-header-mobile.png);
-		background-repeat: no-repeat;
-		background-size: cover;
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)),
+			url(../../../public/images/bg-header-desktop.png);
 		padding: 50px 0 20px 0;
 
 		.header__app-img {
