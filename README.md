@@ -20,4 +20,4 @@ This a solution to the: [Solution Clipboard Landig Page](https://www.frontendmen
 
 ### Links
 
-- Deploy URL:  
+- Deploy URL: https://lenugo.github.io/clipboard-lading-page/ 
