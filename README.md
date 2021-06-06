@@ -1,23 +1,57 @@
 # Frontend Mentor - Clipboard landing page
 
+This is a solution to the [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9).
 
-This a solution to the: [Solution Clipboard Landig Page](https://www.frontendmentor.io/solutions/clipboardladingpage-solutions-using-sass-geb6bAEu5) 
+# Table of content
 
-## Table of contents
+-   [Overview](#overview)
+    -   [The challenge](#the-challenge)
+    -   [Screenshot](#screenshot)
+    -   [Links](#links)
+-   [My Process](#mu-process)
+    -   [Built with](#built-with)
+-   [Author](#author)
 
-## Overview
+# Overview
 
-### The challenge
+## The challenge
 
-### Screenshot
+Users should be able to:
 
-## My process
+-   View the optimal layout for the site depending on their device's screen size
+-   See hover states for all interactive elements on the page
 
-### Build with
+## Screenshot
 
-- Semanthic HTML5 Markup
-- Framework CSS: Sass
+### Design Desktop: 1440px
+
+<img 
+  src="./public/images/desktop_1440px_lenugo.github.io_clipboard-lading-page.png" 
+  alt="desing desktop 1440px"
+/>
+
+### Design Mobile: 375px
+
+<img 
+  src="./public/images/mobile_375px_lenugo.github.io_clipboard-lading-page.png" 
+  alt="desing mobile 375px"
+/>
 
 ### Links
 
-- Deploy URL: https://lenugo.github.io/clipboard-lading-page/ 
+-   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Live Site URL: [lenugo.github.io/clipboard-lading-page](https://lenugo.github.io/clipboard-lading-page/)
+
+# My process
+
+## Build with
+
+-   Semanthic HTML5 Markup
+-   Framework CSS: Sass
+-   Flexbox
+-   Mobile-first workflow
+
+# Author
+
+-   Github User - [Lenugo](https://www.github.com/Lenugo)
+-   Frontend Mentor User - [Frontend Mentor](https://www.frontendmentor.io/profile/L24N97)
