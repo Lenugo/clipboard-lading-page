@@ -20,6 +20,15 @@
   margin: 12px auto;
   height: 60px;
   width: 320px;
+  transition: background-color 1s ease;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  -ms-transition: background-color 1s ease;
+  -o-transition: background-color 1s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 .btn--ios {
@@ -28,6 +37,18 @@
 
 .btn--mac {
   background-color: #6173ff;
+}
+
+.btn--ios:hover {
+  background-color: #fff;
+  color: #26baa4;
+  font-size: 1.2rem;
+}
+
+.btn--mac:hover {
+  background-color: #fff;
+  color: #6173ff;
+  font-size: 1.2rem;
 }
 
 .text--paragraph {
