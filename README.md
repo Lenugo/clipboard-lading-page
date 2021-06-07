@@ -39,7 +39,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/clipboard-lading-page-solution-using-sass-cZDnf8_U0z
+)
 -   Live Site URL: [lenugo.github.io/clipboard-lading-page](https://lenugo.github.io/clipboard-lading-page/)
 
 # My process
