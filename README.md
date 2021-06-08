@@ -8,7 +8,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
     -   [The challenge](#the-challenge)
     -   [Screenshot](#screenshot)
     -   [Links](#links)
--   [My Process](#mu-process)
+-   [My Process](#my-process)
     -   [Built with](#built-with)
 -   [Author](#author)
 
